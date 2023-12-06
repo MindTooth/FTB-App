@@ -26,8 +26,8 @@
     "yarn": "dont-use-yarn"
   },
   "dependencies": {
-    "@sentry/tracing": "^6.19.7",
-    "@sentry/vue": "^6.19.7",
+    "@sentry/tracing": "^7.0.0",
+    "@sentry/vue": "^7.0.0",
     "balloon-css": "^1.2.0",
     "dayjs": "^1.11.7",
     "electron": "^22.3.3",
