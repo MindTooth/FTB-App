@@ -56,11 +56,11 @@ dependencies:
     specifier: ^1.1.2
     version: 1.1.2(vue@2.7.14)
   vuex:
-    specifier: ^3.4.0
-    version: 3.6.2(vue@2.7.14)
+    specifier: ^4.0.0
+    version: 4.1.0(vue@2.7.14)
   vuex-class:
     specifier: ^0.3.2
-    version: 0.3.2(vue-class-component@7.2.6)(vue@2.7.14)(vuex@3.6.2)
+    version: 0.3.2(vue-class-component@7.2.6)(vue@2.7.14)(vuex@4.1.0)
   wysiwyg.css:
     specifier: ^0.0.4
     version: 0.0.4
@@ -3235,6 +3235,10 @@ packages:
       - walrus
       - whiskers
     dev: true
+
+  /@vue/devtools-api@6.5.1:
+    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+    dev: false
 
   /@vue/devtools@6.5.0:
     resolution: {integrity: sha512-PlXwf1k5LABNayF71QSfmRL0sRIcBR5HKjrsmGf+raILJ5h32/MRbzA0UpfS/fudCyRgi8F7W5KC1wLRfkTxPQ==}
@@ -14809,7 +14813,7 @@ packages:
       '@vue/compiler-sfc': 2.7.14
       csstype: 3.1.1
 
-  /vuex-class@0.3.2(vue-class-component@7.2.6)(vue@2.7.14)(vuex@3.6.2):
+  /vuex-class@0.3.2(vue-class-component@7.2.6)(vue@2.7.14)(vuex@4.1.0):
     resolution: {integrity: sha512-m0w7/FMsNcwJgunJeM+wcNaHzK2KX1K1rw2WUQf7Q16ndXHo7pflRyOV/E8795JO/7fstyjH3EgqBI4h4n4qXQ==}
     peerDependencies:
       vue: ^2.5.0
@@ -14818,14 +14822,15 @@ packages:
     dependencies:
       vue: 2.7.14
       vue-class-component: 7.2.6(vue@2.7.14)
-      vuex: 3.6.2(vue@2.7.14)
+      vuex: 4.1.0(vue@2.7.14)
     dev: false
 
-  /vuex@3.6.2(vue@2.7.14):
-    resolution: {integrity: sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==}
+  /vuex@4.1.0(vue@2.7.14):
+    resolution: {integrity: sha512-hmV6UerDrPcgbSy9ORAtNXDr9M4wlNP4pEFKye4ujJF8oqgFFuxDCdOLS3eNoRTtq5O3hoBDh9Doj1bQMYHRbQ==}
     peerDependencies:
-      vue: ^2.0.0
+      vue: ^3.2.0
     dependencies:
+      '@vue/devtools-api': 6.5.1
       vue: 2.7.14
     dev: false
 
@@ -15333,6 +15338,7 @@ packages:
   /xmlbuilder@15.1.1:
     resolution: {integrity: sha512-yMqGBqtXyeN1e3TGYvgNgDVZ3j84W4cwkOXQswghol6APgZWaff9lnbvN7MHYJOiXsvGPXtjTYJEiC9J2wv9Eg==}
     engines: {node: '>=8.0'}
+    requiresBuild: true
     dev: true
 
   /xmlchars@2.2.0:
