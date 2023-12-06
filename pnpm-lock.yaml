@@ -82,8 +82,8 @@ devDependencies:
     specifier: ^2.0.6
     version: 2.0.10(@fortawesome/fontawesome-svg-core@6.3.0)(vue@2.7.14)
   '@overwolf/ow-cli':
-    specifier: 0.0.5-0
-    version: 0.0.5-0
+    specifier: 0.0.5-1
+    version: 0.0.5-1
   '@overwolf/types':
     specifier: ^3.16.0
     version: 3.23.0
@@ -2158,8 +2158,8 @@ packages:
       rimraf: 3.0.2
     dev: true
 
-  /@overwolf/ow-cli@0.0.5-0:
-    resolution: {integrity: sha512-WGDowD5p+g2L6KfAPdxCeGwYzX59EyxJRFQi0xeT0s9qM1caqq7GOXN7ISduQiHGRCIB+3qfcfgtZBB4ylQREA==}
+  /@overwolf/ow-cli@0.0.5-1:
+    resolution: {integrity: sha512-0P67SyR6Bx/FjBG6WqLxN7LRHLhgEB65uUpTEfhiE0Xdt+Jg9Tr7aIhZkbzQXscHPu7K0S4q4b9L2c1d9Szzbg==}
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -15333,6 +15333,7 @@ packages:
   /xmlbuilder@15.1.1:
     resolution: {integrity: sha512-yMqGBqtXyeN1e3TGYvgNgDVZ3j84W4cwkOXQswghol6APgZWaff9lnbvN7MHYJOiXsvGPXtjTYJEiC9J2wv9Eg==}
     engines: {node: '>=8.0'}
+    requiresBuild: true
     dev: true
 
   /xmlchars@2.2.0:
