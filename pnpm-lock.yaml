@@ -151,8 +151,8 @@ devDependencies:
     specifier: ^3.0.0
     version: 3.5.0
   electron-log:
-    specifier: ^4.1.2
-    version: 4.4.8
+    specifier: ^5.0.0
+    version: 5.0.1
   jest:
     specifier: ^29.4.3
     version: 29.5.0(@types/node@18.14.1)
@@ -6506,8 +6506,9 @@ packages:
       unused-filename: 2.1.0
     dev: true
 
-  /electron-log@4.4.8:
-    resolution: {integrity: sha512-QQ4GvrXO+HkgqqEOYbi+DHL7hj5JM+nHi/j+qrN9zeeXVKy8ZABgbu4CnG+BBqDZ2+tbeq9tUC4DZfIWFU5AZA==}
+  /electron-log@5.0.1:
+    resolution: {integrity: sha512-x4wnwHg00h/onWQgjmvcdLV7Mrd9TZjxNs8LmXVpqvANDf4FsSs5wLlzOykWLcaFzR3+5hdVEQ8ctmrUxgHlPA==}
+    engines: {node: '>= 14'}
     dev: true
 
   /electron-osx-sign@0.5.0:
@@ -15333,6 +15334,7 @@ packages:
   /xmlbuilder@15.1.1:
     resolution: {integrity: sha512-yMqGBqtXyeN1e3TGYvgNgDVZ3j84W4cwkOXQswghol6APgZWaff9lnbvN7MHYJOiXsvGPXtjTYJEiC9J2wv9Eg==}
     engines: {node: '>=8.0'}
+    requiresBuild: true
     dev: true
 
   /xmlchars@2.2.0:
