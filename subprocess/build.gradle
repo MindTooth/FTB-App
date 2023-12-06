@@ -61,7 +61,7 @@ dependencies {
     implementation 'commons-io:commons-io:2.11.0'
     implementation 'net.java.dev.jna:jna:5.5.0'
     implementation 'net.java.dev.jna:jna-platform:5.5.0'
-    implementation('org.apache.maven:maven-artifact:3.8.4') {
+    implementation('org.apache.maven:maven-artifact:3.9.6') {
         exclude group: 'org.codehaus.plexus' // Not needed for this application.
     }
     implementation 'com.github.pircbotx:pircbotx:2.2'
