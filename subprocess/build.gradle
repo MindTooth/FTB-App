@@ -78,7 +78,7 @@ dependencies {
         exclude group: 'software.amazon.awssdk', module: 'netty-nio-client'
     }
 
-    compileOnly 'org.jetbrains:annotations:22.0.0'
+    compileOnly 'org.jetbrains:annotations:24.1.0'
     compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
 
 //    if (file('debugger').exists()) {
