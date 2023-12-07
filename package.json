@@ -51,7 +51,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "@fortawesome/vue-fontawesome": "^3.0.0",
     "@overwolf/ow-cli": "0.0.5-1",
     "@overwolf/types": "^3.16.0",
     "@sentry/webpack-plugin": "^1.18.9",
