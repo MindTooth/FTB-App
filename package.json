@@ -21,7 +21,7 @@
     "postuninstall": "electron-builder install-app-deps"
   },
   "engines": {
-    "node": "^18",
+    "node": "^20.0.0",
     "npm": "dont-use-npm",
     "yarn": "dont-use-yarn"
   },
@@ -57,7 +57,7 @@
     "@sentry/webpack-plugin": "^1.18.9",
     "@types/jest": "^29.4.0",
     "@types/markdown-it": "^12.2.3",
-    "@types/node": "^18.14.0",
+    "@types/node": "^20.0.0",
     "@types/node-fetch": "^2.5.7",
     "@types/semver": "^7.2.0",
     "@types/webpack-env": "1.18.4",

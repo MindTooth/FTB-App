@@ -30,7 +30,7 @@ build_jar:
 
 cache_node:
     stage: build
-    image: node:18
+    image: node:20
     interruptible: false
     dependencies: []
     tags:
@@ -48,7 +48,7 @@ cache_node:
 # TODO build shim step
 build_overwolf:
     stage: build_app
-    image: node:18
+    image: node:20
     interruptible: true
     dependencies:
         - build_jar
@@ -91,7 +91,7 @@ build_overwolf:
 
 build_electron:
     stage: build_app
-    image: node:18
+    image: node:20
     interruptible: true
     dependencies:
         - build_jar
