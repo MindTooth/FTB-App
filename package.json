@@ -34,7 +34,7 @@
     "markdown-it": "^13.0.1",
     "mitt": "^3.0.0",
     "semver": "^7.3.2",
-    "tailwindcss": "^1.9.6",
+    "tailwindcss": "^3.0.0",
     "vue": "^2.7.14",
     "vue-native-websocket": "^2.0.14",
     "vue-router": "^3.1.6",
