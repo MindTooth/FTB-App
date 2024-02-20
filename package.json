@@ -30,7 +30,7 @@
     "@sentry/vue": "^6.19.7",
     "balloon-css": "^1.2.0",
     "dayjs": "^1.11.7",
-    "electron": "^22.3.3",
+    "electron": "^29.0.0",
     "markdown-it": "^13.0.1",
     "mitt": "^3.0.0",
     "semver": "^7.3.2",
