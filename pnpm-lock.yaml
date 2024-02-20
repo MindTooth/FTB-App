@@ -29,8 +29,8 @@ dependencies:
     specifier: ^1.11.7
     version: 1.11.7
   electron:
-    specifier: ^22.3.3
-    version: 22.3.4
+    specifier: ^29.0.0
+    version: 29.0.0
   markdown-it:
     specifier: ^13.0.1
     version: 13.0.1
@@ -2565,9 +2565,16 @@ packages:
 
   /@types/node@16.18.12:
     resolution: {integrity: sha512-vzLe5NaNMjIE3mcddFVGlAXN1LEWueUsMsOJWaT6wWMJGyljHAWHznqfnKUQWGzu7TLPrGvWdNAsvQYW+C0xtw==}
+    dev: true
 
   /@types/node@18.14.1:
     resolution: {integrity: sha512-QH+37Qds3E0eDlReeboBxfHbX9omAcBCXEzswCu6jySP642jiM3cYSIkU/REqwhCUqXdonHFuBfJDiAJxMNhaQ==}
+
+  /@types/node@20.11.19:
+    resolution: {integrity: sha512-7xMnVEcZFu0DikYjWOlRq7NTPETrm7teqUT2WkQjrTIkEgUyyGdWsj/Zg8bEJt5TNklzbPD1X3fqfsHw3SpapQ==}
+    dependencies:
+      undici-types: 5.26.5
+    dev: false
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -6552,14 +6559,14 @@ packages:
       - supports-color
     dev: true
 
-  /electron@22.3.4:
-    resolution: {integrity: sha512-EY/ieC3gnKYUNOQPJSCIbiMBwEnGs/j0yIAUf0pXPK4BRh2nvXTD5d9OdouAIN7bRNLLPgqoTm0uXgZPAWTVkg==}
+  /electron@29.0.0:
+    resolution: {integrity: sha512-HhrRC5vWb6fAbWXP3A6ABwKUO9JvYSC4E141RzWFgnDBqNiNtabfmgC8hsVeCR65RQA2MLSDgC8uP52I9zFllQ==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@electron/get': 2.0.2
-      '@types/node': 16.18.12
+      '@types/node': 20.11.19
       extract-zip: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -7176,6 +7183,7 @@ packages:
 
   /file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: true
 
   /filelist@1.0.4:
@@ -9938,7 +9946,7 @@ packages:
     dev: true
 
   /json-buffer@3.0.0:
-    resolution: {integrity: sha1-Wx85evx11ne96Lz8Dkfh+aPZqJg=}
+    resolution: {integrity: sha512-CuUqjv0FUZIdXkHPI8MezCnFCdaTAacej1TZYulLoAg1h/PhwkdXFN4V/gzY4g+fMBCOV2xF+rp7t2XD2ns/NQ==}
     dev: true
 
   /json-buffer@3.0.1:
@@ -14231,6 +14239,10 @@ packages:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
     dev: true
+
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+    dev: false
 
   /unicode-canonical-property-names-ecmascript@2.0.0:
     resolution: {integrity: sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==}
