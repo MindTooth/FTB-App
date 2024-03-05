@@ -54,7 +54,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.6",
     "@overwolf/ow-cli": "0.0.5-1",
     "@overwolf/types": "^3.16.0",
-    "@sentry/webpack-plugin": "^1.18.9",
+    "@sentry/webpack-plugin": "^2.0.0",
     "@types/jest": "^29.4.0",
     "@types/markdown-it": "^12.2.3",
     "@types/node": "^18.14.0",
