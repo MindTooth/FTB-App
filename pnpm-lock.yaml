@@ -50,8 +50,8 @@ dependencies:
     specifier: ^2.0.14
     version: 2.0.15
   vue-router:
-    specifier: ^3.1.6
-    version: 3.6.5(vue@2.7.14)
+    specifier: ^4.0.0
+    version: 4.2.5(vue@2.7.14)
   vue-virtual-scroller:
     specifier: ^1.1.2
     version: 1.1.2(vue@2.7.14)
@@ -3231,6 +3231,10 @@ packages:
       - walrus
       - whiskers
     dev: true
+
+  /@vue/devtools-api@6.5.1:
+    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
+    dev: false
 
   /@vue/devtools@6.5.0:
     resolution: {integrity: sha512-PlXwf1k5LABNayF71QSfmRL0sRIcBR5HKjrsmGf+raILJ5h32/MRbzA0UpfS/fudCyRgi8F7W5KC1wLRfkTxPQ==}
@@ -14762,11 +14766,12 @@ packages:
       vue: 2.7.14
     dev: false
 
-  /vue-router@3.6.5(vue@2.7.14):
-    resolution: {integrity: sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==}
+  /vue-router@4.2.5(vue@2.7.14):
+    resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}
     peerDependencies:
-      vue: ^2
+      vue: ^3.2.0
     dependencies:
+      '@vue/devtools-api': 6.5.1
       vue: 2.7.14
     dev: false
 
