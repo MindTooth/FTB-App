@@ -67,7 +67,7 @@
     "@vue/cli-plugin-unit-jest": "^4.5.19",
     "@vue/cli-service": "^4.5.19",
     "@vue/devtools": "^6.5.0",
-    "@vue/test-utils": "1.0.2",
+    "@vue/test-utils": "2.4.5",
     "@vue/vue2-jest": "28",
     "archiver": "^5.3.1",
     "babel-core": "7.0.0-bridge.0",
