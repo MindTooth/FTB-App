@@ -178,7 +178,7 @@ tasks.register('writeVersion') {
 build.dependsOn 'writeVersion'
 
 wrapper {
-    gradleVersion = "7.6.3"
+    gradleVersion = "8.7"
 }
 
 idea.project.settings {
