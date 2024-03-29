@@ -10,7 +10,7 @@ plugins {
     id "com.github.johnrengelman.shadow" version "7.1.2"
     id "com.palantir.git-version" version "0.12.3"
     id "com.github.hierynomus.license" version "0.16.1" apply false
-    id "com.dorongold.task-tree" version "2.1.1"
+    id "com.dorongold.task-tree" version "3.0.0"
     id "org.jetbrains.gradle.plugin.idea-ext" version "1.1.7"
     id 'cz.habarta.typescript-generator' version "3.2.+"
 }
